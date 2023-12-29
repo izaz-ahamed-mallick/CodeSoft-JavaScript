@@ -59,8 +59,7 @@ function saveStorage() {
 // EditFunction
 
 function editTask(li,inputBox){
-   let currentTask = li.firstChild.nodevalue;
-
+   let currentTask = li.firstChild.nodeValue;
    inputBox.value = currentTask
    li.remove()
    saveStorage()
